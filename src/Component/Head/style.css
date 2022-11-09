@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
 }
-/* .header_wrapper {
+
+.header_wrapper {
   width: 100%;
   background-color: transparent;
-  position: relative;
 }
 
 .header {
@@ -23,6 +21,7 @@
   position: absolute;
   top: 0;
   z-index: 1000;
+  margin-top: 16px;
   height: 74px;
   overflow: visible;
 }
@@ -36,6 +35,7 @@
   width: 75px;
 }
 .header_child2 {
+  /* margin-top: 18px; */
   padding: 0 16px;
   display: flex;
   justify-content: center;
@@ -54,6 +54,7 @@
   border-radius: 8px;
 }
 .hero_wrapper {
+  position: relative;
 }
 
 .hero {
@@ -65,7 +66,7 @@
       rgba(0, 0, 0, 0.5) 90%,
       rgba(0, 0, 0.4) 100%
     ),
-    url("./Component/Head/Pics/header1.jpg");
+    url("./Pics/header1.jpg");
   background-position: center;
   background-size: contain;
   position: absolute;
@@ -150,24 +151,4 @@
 }
 .signuphulu a {
   color: white;
-} */
-
-/* @media (min-width: 767px) {
-  .hero {
-    padding-top: 80px;
-    min-height: 660px;
-    background-image: linear-gradient(
-        0deg,
-        transparent 60%,
-        rgba(0, 0, 0, 0.2) 90%,
-        rgba(0, 0, 0, 0.4) 100%
-      ),
-      url("./Component/Header/Pics/Header/Hero/header1.jpg");
-    background-position: center;
-    background-size: contain;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-} */
+}

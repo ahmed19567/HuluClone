@@ -1,0 +1,139 @@
+:root {
+  --main-color: white;
+  --second-color: #1ee783;
+  --font-sizes: 16px;
+  --background_color: #0b0c10;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+.library {
+  background-color: var(--background_color);
+  display: block;
+}
+.library_header {
+  display: block;
+  margin: 0 250px;
+}
+.library_content {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 25px;
+}
+
+.eyebrow {
+  box-sizing: border-box;
+  color: var(--second-color);
+  text-align: center;
+}
+
+.library_title {
+  color: var(--main-color);
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.library_discription {
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 1.5;
+  padding-top: 16px;
+  text-align: center;
+
+  color: white;
+}
+
+.library-grid-container {
+  box-sizing: border-box;
+  background-color: #0b0c0f;
+  max-width: 100%;
+  padding: 0 0 100px;
+}
+.library_grid {
+  grid-template-columns: repeat(4, 295px);
+  grid-template-rows: auto;
+  display: grid;
+  column-gap: 24px;
+  row-gap: 24px;
+  justify-content: center;
+  border: none;
+}
+.library_grid_item {
+  color: #272c34;
+  border: none;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.library_item_wrapper {
+  color: var(--main-color);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-align: left;
+  position: relative;
+}
+.library_item-gradient {
+  background: linear-gradient(
+      156.82deg,
+      rgba(0, 0, 0, 0.6) 4.58%,
+      rgba(0, 0, 0, 0) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.library_item_background {
+  width: 100%;
+  object-fit: contain;
+  vertical-align: middle;
+  border-style: none;
+  box-sizing: inherit;
+  background-color: black;
+  border: none;
+  box-sizing: border-box;
+  width: 295px;
+}
+.library_item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  box-sizing: inherit;
+}
+.library_item-overlay span {
+  color: white;
+}
+
+.library_item-eyebrow {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.library-item-category {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  padding: 8 0;
+}
+.premium-library-items-legal {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.5;
+}

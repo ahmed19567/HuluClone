@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --back-color: #0b0c0f;
+  --gren-color: #1ce783;
+  --gray-warning: rgba(255, 255, 255, 0.6);
+  --not-active: rgba(200, 200, 200, 0.4);
+}
+
+.spotlight {
+  width: 100%;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8) -57.5%,
+      rgba(0, 0, 0, 0) 98.72%
+    ),
+    url("./pics/sportspic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 702px;
+}
+
+.spotlight_outtercontainer {
+  margin: 0 230px;
+  padding-top: 60px;
+  padding-bottom: 190px;
+}
+
+.spotlight_innercontainer {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.tab_button {
+  padding-bottom: 31px;
+}
+.spotlight_btn {
+  background-color: transparent;
+  border: none;
+  align-items: center;
+}
+.spotlight_span {
+  background: transparent;
+  font-size: 16px;
+  color: white;
+  margin-right: 32px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.active {
+  background: transparent;
+  font-size: 16px;
+  color: white;
+  margin-right: 32px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: var(--not-active);
+}
+
+.active:hover {
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+.spotlight_span:hover {
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+.tab_content {
+  color: white;
+}
+
+.tab_content_headline span {
+  font-size: 48px;
+  font-weight: 700px;
+  line-height: 60px;
+  margin-top: 25px;
+  display: block;
+}
+.tab_content_subheadline {
+  margin-top: 24px;
+  width: 450px;
+}
+.tab_content_subheadline_span {
+  box-sizing: border-box;
+
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 1.36;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabcontent_logorow {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.logorowchild {
+  width: 55px;
+  height: 55px;
+  margin: 0 20px 20px 0;
+  box-sizing: inherit;
+}
+
+.wall {
+  background-image: url("https://www.hulu.com/static/hitch/static/logos/networks/network-logo-bg@2x.png");
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-height: 90px;
+  max-width: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.wall img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tvplanrequired p {
+  font-size: 10px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.tvplanrequired p a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 4px;
+  text-decoration: underline;
+}
